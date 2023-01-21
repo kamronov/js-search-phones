@@ -1,0 +1,66 @@
+.cantainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.inp {
+    display: block;
+    border: none;
+    border-bottom: 1px solid orange;
+    width: 50%;
+    font-size: 17px;
+}
+.inp:focus{
+    outline: none;
+}
+.searchBtn {
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 134, 0);
+    border: 1px solid;
+    border-radius: 8px;
+}
+.searchBtn:hover {
+    color: orange;
+    border: 1px solid orange;
+    background-color: #fff;
+    cursor: pointer;
+}
+.card_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card_item {
+    width: 250px;
+    height: 340px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 7px;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px;
+    margin: 5px 10px;
+
+}
+img {
+    width: 250px;
+    height: 228px;
+    object-fit: cover;
+}
+i {
+    display: inline-block;
+    margin: 5px;
+}
+h4 {
+    margin: 10px;
+}
+.card_item span {
+    margin-top: 0;
+}
